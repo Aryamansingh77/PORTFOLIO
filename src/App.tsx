@@ -171,10 +171,6 @@ function App() {
             >
               View My Work
             </button>
-            <button className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center gap-2">
-              <Download size={20} />
-              Resume
-            </button>
           </div>
         </div>
         
@@ -319,7 +315,7 @@ function App() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <a 
-              href="aryamansingh.bca2023@imsuc.ac.in"
+              href="aryamansingh928@gmail.com"
               className="bg-slate-800/50 p-6 rounded-xl hover:bg-slate-700/50 transition-all duration-300 transform hover:scale-105 group"
             >
               <Mail className="w-8 h-8 text-teal-400 mx-auto mb-4 group-hover:scale-110 transition-transform" />
@@ -361,13 +357,13 @@ function App() {
               © All rights reserved.
             </div>
             <div className="flex space-x-6">
-              <a href="#" className="text-slate-400 hover:text-teal-400 transition-colors">
+              <a href="https://github.com/Aryamansingh77" className="text-slate-400 hover:text-teal-400 transition-colors">
                 <Github size={20} />
               </a>
-              <a href="#" className="text-slate-400 hover:text-teal-400 transition-colors">
+              <a href="https://www.linkedin.com/in/aryaman-singh-361a23367" className="text-slate-400 hover:text-teal-400 transition-colors">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="text-slate-400 hover:text-teal-400 transition-colors">
+              <a href="aryamansingh928@gmail.com" className="text-slate-400 hover:text-teal-400 transition-colors">
                 <Mail size={20} />
               </a>
             </div>
