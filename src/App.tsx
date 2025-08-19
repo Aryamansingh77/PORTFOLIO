@@ -83,9 +83,9 @@ function App() {
   ];
 
   const skills = [
-    { name: "Frontend Development", icon: Code2, level: 90 },
-    { name: "UI/UX Design", icon: Palette, level: 85 },
-    { name: "Mobile Development", icon: Smartphone, level: 80 },
+    { name: "Software Development", icon: Code2, level: 90 },
+    { name: "Web Design", icon: Palette, level: 85 },
+    { name: "Cybersecurity", icon: Smartphone, level: 80 },
   ];
 
   return (
@@ -207,10 +207,9 @@ function App() {
             </div>
             <div className="space-y-6">
               {[
-                { label: "Projects Completed", value: "50+" },
-                { label: "Years Experience", value: "5+" },
-                { label: "Happy Clients", value: "30+" },
-                { label: "Technologies Mastered", value: "15+" }
+                { label: "Projects Completed", value: "5+" },
+                { label: "Happy Clients", value: "3+" },
+                { label: "Technologies Mastered", value: "6+" }
               ].map((stat, index) => (
                 <div key={index} className="flex justify-between items-center p-4 bg-slate-700/50 rounded-lg">
                   <span className="text-slate-300">{stat.label}</span>
@@ -247,8 +246,8 @@ function App() {
             <h3 className="text-2xl font-semibold text-white mb-8">Technologies I Work With</h3>
             <div className="flex flex-wrap justify-center gap-4">
               {[
-                'React', 'TypeScript', 'Node.js', 'Python', 'MongoDB', 'PostgreSQL',
-                'Docker', 'AWS', 'Tailwind CSS', 'Next.js', 'Vue.js', 'GraphQL'
+                'React', 'TypeScript', 'Node.js', 'Python', 'MongoDB', 
+                 'Tailwind CSS', 'Next.js',
               ].map((tech, index) => (
                 <span
                   key={index}
@@ -320,7 +319,7 @@ function App() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <a 
-              href="mailto:alex@example.com"
+              href="aryamansingh.bca2023@imsuc.ac.in"
               className="bg-slate-800/50 p-6 rounded-xl hover:bg-slate-700/50 transition-all duration-300 transform hover:scale-105 group"
             >
               <Mail className="w-8 h-8 text-teal-400 mx-auto mb-4 group-hover:scale-110 transition-transform" />
@@ -329,7 +328,8 @@ function App() {
             </a>
             
             <a 
-              href="https://linkedin.com/in/alexjohnson"
+              href="https://www.linkedin.com/in/aryaman-singh-361a23367
+              "
               className="bg-slate-800/50 p-6 rounded-xl hover:bg-slate-700/50 transition-all duration-300 transform hover:scale-105 group"
             >
               <Linkedin className="w-8 h-8 text-teal-400 mx-auto mb-4 group-hover:scale-110 transition-transform" />
@@ -338,7 +338,7 @@ function App() {
             </a>
             
             <a 
-              href="https://github.com/alexjohnson"
+              href="https://github.com/Aryamansingh77"
               className="bg-slate-800/50 p-6 rounded-xl hover:bg-slate-700/50 transition-all duration-300 transform hover:scale-105 group"
             >
               <Github className="w-8 h-8 text-teal-400 mx-auto mb-4 group-hover:scale-110 transition-transform" />
